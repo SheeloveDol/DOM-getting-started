@@ -14,3 +14,10 @@ let newDestination = document.createElement('li');
 newDestination.id = 'oaxaca';
 newDestination.innerHTML = 'Oaxaca, Mexico';
 document.querySelector('ol').appendChild(newDestination);
+
+
+// removing an element:
+let forDeletion = document.getElementById('first');
+document.querySelector('ol').removeChild(forDeletion);
+
+
