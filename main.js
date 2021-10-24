@@ -21,6 +21,14 @@ let forDeletion = document.getElementById('first');
 document.querySelector('ol').removeChild(forDeletion);
 
 
+// Traversing the DOM
+/* 
+let first = document.body.firstChild;
+first.innerHTML = 'I am the child';
+
+first.parentNode.innerHTML = 'I am the parent and my inner HTML has been replaced!'
+*/
+
 // hidding and element:
 let suits = document.getElementById('fifth');
 suits.hidden = true;
