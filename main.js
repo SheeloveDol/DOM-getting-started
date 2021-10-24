@@ -24,3 +24,14 @@ document.querySelector('ol').removeChild(forDeletion);
 // hidding and element:
 let suits = document.getElementById('fifth');
 suits.hidden = true;
+
+
+// Adding interactivity with onclick
+
+let element = document.getElementById('second');
+function turnBackgroundBlue() {
+  element.style.backgroundColor = 'blue';
+  element.style.color = 'white';
+}
+
+element.onclick = turnBackgroundBlue;
