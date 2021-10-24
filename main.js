@@ -21,3 +21,6 @@ let forDeletion = document.getElementById('first');
 document.querySelector('ol').removeChild(forDeletion);
 
 
+// hidding and element:
+let suits = document.getElementById('fifth');
+suits.hidden = true;
